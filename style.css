@@ -20,7 +20,7 @@ body{
 }
 
 /* 3D floating animation */
-@keyframes float3d{
+ @keyframes float3d{
     0%{transform:translateY(0px) rotateX(0deg);}
     50%{transform:translateY(-10px) rotateX(2deg);}
     100%{transform:translateY(0px) rotateX(0deg);}
@@ -29,7 +29,7 @@ body{
 .hero-img img{
     animation:float3d 6s ease-in-out infinite;
 }
-
+/* 
 @keyframes glow{
     0%{filter:hue-rotate(0deg);}
     100%{filter:hue-rotate(360deg);}
@@ -55,7 +55,7 @@ body{
     box-shadow:
         0 0 30px rgba(25, 191, 100, 0.4),
         0 0 80px rgba(139,92,246,.3);
-}
+}  */
 
 /* ================= NAVBAR ================= */
 
@@ -286,6 +286,7 @@ body{
     background-attachment: fixed;
     scroll-behavior:smooth;
 }
+
 
 
 
